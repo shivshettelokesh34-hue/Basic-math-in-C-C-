@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+
+void main()
+{
+    int a=20, b=10;
+    clrscr();
+
+    printf("Subtraction = %d", a-b);
+
+    getch();
+}
