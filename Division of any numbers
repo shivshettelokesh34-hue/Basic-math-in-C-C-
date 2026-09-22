@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main()
+{
+    float a, b, result;
+
+    printf("Enter first number: ");
+    scanf("%f", &a);
+
+    printf("Enter second number: ");
+    scanf("%f", &b);
+
+    result = a / b;
+
+    printf("Division = %.2f", result);
+
+    return 0;
+}
